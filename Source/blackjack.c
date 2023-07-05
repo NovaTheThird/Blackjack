@@ -7,6 +7,11 @@
 // Date Created: 6/26/23
 // Last Updated: 6/28/23
 //
+// Hi. I don't entirely like what lies below. It could look nicer and be
+// formatted much more intuitavely, but considering I have less than a year
+// of expierence with coding, I think a FSM (I hope that's the right term)
+// is more than good enough.
+//
 //-----------------------------------------------------------------------------
 
 //-----------------------------------------------------------------------------
@@ -89,8 +94,8 @@ void Blackjack(void)
 //
 static void MenuInit(void)
 {
-  printf("\nBLACKJACK V0.3 | BY NICHOLAS BRENNAN\n");
-  printf("------------------------------------\n");
+  printf("\nBLACKJACK V0.3.1 | BY NICHOLAS BRENNAN\n");
+  printf("--------------------------------------\n");
 
   isRunning = TRUE;
   menuState = DEFAULT;
@@ -149,15 +154,14 @@ static void MenuUpdate(void)
         printf("\nWelcome to Blackjack. Things are a little different in this version.\n");
         printf("  You play the dealer for the first to 21. If either of you go over,\n");
         printf("  the other automatically wins.\n");
-        printf("  Aces are *only* worth one. \n  Face cards continue past ten (jacks = 11, etc.)\n");
+        printf("  Aces are *only* worth one. \n  Face cards continue past ten (jacks = 11, etc.)\n\n");
 
         menuState = DEFAULT;
         break;
 
       case UPDATE:
         printf("\nCOMING NEXT UPDATE:\n");
-        printf("  - Changing face cards to 10\n");
-        printf("  - Drawing two cards for each player initially");
+        printf("  - Changing face cards to 10\n\n");
 
         menuState = DEFAULT;
         break;
