@@ -1,0 +1,1 @@
+gcc -o blackjack Source\blackjack.c Source\card.c Source\main.c Source\player.c -Wall
