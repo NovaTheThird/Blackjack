@@ -1,4 +1,2 @@
 # Blackjack
-A console based Blackjack application written completely in C (Made by someone who forgot the rules of Blackjack).
-
-Wanted to try my hand at a console based application.
+A console based Blackjack application written completely in C. While developing this, I realized I had no clue how Blackjack was played and just made up my own rules based loosely on what I could remember.
